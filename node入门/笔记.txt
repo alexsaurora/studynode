@@ -1,0 +1,99 @@
+NodeJs
+
+模块：
+1，http模块
+2，断言(assert)
+3，Buffer对象(处理二进制数据)  File System(fs,文件读取)
+4，C++ Addons
+5，js多进程
+  Child Processes
+  Cluster
+  Process
+6，Crypto 签名(加密)
+  md5,sha签名算法
+7，http
+  HTTP/HTTPS
+  HTTP2
+8，OS 操作系统
+9，Path
+10，Events  事件队列
+    async逐渐代替
+11，Query Strings 查询字符串
+  URL url可以包含querystring查询
+12，网络
+  TCP——稳定传输协议  使用Net模块
+  UDP——快速         使用UDP/Datagram模块
+13，域名解析
+  DNS
+  Domain
+14，流操作
+  Stream
+  连续数据都是流————视频流、网络流、文件流、语音流
+15，TLS/SSL
+  加密安全，目前主流的安全协议
+16，Zlib 压缩
+    gz压缩
+
+============================================================================
+NodeJs V10.16.0
+
+Assertion Testing
+Async Hooks
+Buffer
+C++ Addons
+C/C++ Addons - N-API
+Child Processes
+Cluster
+Command Line Options
+Console
+Crypto
+Debugger
+Deprecated APIs
+DNS
+Domain
+ECMAScript Modules
+Errors
+Events
+File System
+Globals
+HTTP
+HTTP/2
+HTTPS
+Inspector
+Internationalization
+Modules
+Net
+OS
+Path
+Performance Hooks
+Process
+Punycode
+Query Strings
+Readline
+REPL
+Stream
+String Decoder
+Timers
+TLS/SSL
+Trace Events
+TTY
+UDP/Datagram
+URL
+Utilities
+V8
+VM
+Worker Threads
+Zlib
+
+
+
+
+============================================================================
+服务器————绝大部分都是异步操作
+
+===========================================================================
+数据交互
+
+1，node接收get数据、post数据、文件数据
+2，数据库
+3，WebSocket
